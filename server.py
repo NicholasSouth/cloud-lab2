@@ -15,7 +15,7 @@ def handle_client(con, add):
         print(f"[{time.strftime('%X')}] Received from {add}: {message}")
 
         # Add delay
-        time.sleep(2)
+        time.sleep(5)
         
         # Send a response back to the correct client
         response = f"Server received: {message}"
